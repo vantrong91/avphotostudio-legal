@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AV Photo Studio · Legal</title>
+<style>
+  :root {
+    --bg: #fdfcfb;
+    --surface: #ffffff;
+    --text: #1c1b1a;
+    --muted: #5f5b57;
+    --rule: #e8e3de;
+    --accent: #e8730c;
+    --accent-2: #7b2cbf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131211;
+      --surface: #1c1b1a;
+      --text: #eae6e2;
+      --muted: #a8a29c;
+      --rule: #33302d;
+      --accent: #ffb060;
+      --accent-2: #c9a0ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 64px;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; }
+  .banner {
+    margin: 0 -16px 32px;
+    padding: 28px 16px;
+    background: linear-gradient(120deg, var(--accent), var(--accent-2));
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .02em;
+  }
+  .banner .inner { max-width: 46rem; margin: 0 auto; }
+  .crumbs { font-size: .9rem; color: var(--muted); margin-bottom: 32px; }
+  .crumbs a { color: var(--accent-2); text-decoration: none; }
+  .crumbs a:hover { text-decoration: underline; }
+  .crumbs span { margin: 0 .5em; }
+  article {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 32px;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 .25em; }
+  h2 {
+    font-size: 1.05rem;
+    margin: 1.75em 0 .4em;
+    padding-top: 1.1em;
+    border-top: 1px solid var(--rule);
+    color: var(--accent-2);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 1.2em; }
+  p { margin: 0 0 1em; }
+  .updated, .lead { color: var(--muted); font-size: .92rem; }
+  .index { list-style: none; padding: 0; }
+  .index li { margin: .6em 0; }
+  .index a {
+    display: block;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .index a:hover { border-color: var(--accent); }
+  footer { color: var(--muted); font-size: .85rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="banner"><div class="inner">AV Photo Studio</div></div>
+<div class="wrap">
+<h1>AV Photo Studio</h1>
+<p class="lead">Tài liệu pháp lý · Legal documents</p>
+<ul class="index">
+<li><a href="privacy/">Chính sách bảo mật · Privacy policy</a></li>
+<li><a href="terms/">Điều khoản sử dụng · Terms of use</a></li>
+</ul>
+
+<footer>© 2026 AV Tech VN</footer>
+</div>
+</body>
+</html>
